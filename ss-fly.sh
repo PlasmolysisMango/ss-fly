@@ -154,6 +154,7 @@ install_ssr() {
                      ;;
         esac
 	chmod +x ssr.sh
+	chmod +x sunny
 	./ssr.sh 2>&1 | tee shadowsocksR.log
 }
 
